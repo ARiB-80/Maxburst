@@ -1,0 +1,602 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* font-family: false; */
+    font-family: "Dela Gothic One", sans-serif;
+
+}
+
+.dela-gothic one-regular {
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body{
+    background-color: #1f1f1f;
+    height: 100vh;
+}
+img{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.container{
+    margin: auto;
+    max-width: 1400px;
+}
+
+
+/*header*/
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 25px;
+}
+.logo{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    letter-spacing: 3px;
+}
+nav a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: white;
+    font-weight:300;
+    letter-spacing: 1px;
+    font-family:Poppins;
+}
+.contact_btn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgba(225, 225, 225, 0.5);
+    padding: 12px 30px;
+    margin-left: 20px; 
+    font-family:Poppins;
+}
+
+/*header end*/
+
+/*Marketing Agency*/
+.grid{
+    position: relative;
+}
+.grid img{
+    opacity: 50%;
+    transform: rotate(-10deg);
+    position: absolute;
+    left: 500px;
+    margin-top: 80px;
+}
+
+
+.marketing{
+    margin-top: 100px;
+    color: white;
+
+}
+.marketing p{
+    opacity: 35%;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.marketing h1{
+    font-size: 100px;
+    line-height: 100px;
+}
+.demo{
+    font-weight: 700;
+    font-size: 25px;
+    color: #1f1f1f;
+    background-color: rgba(253,200,52,255);
+    border: none;
+    padding: 19px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0;
+}
+.fa-arrow-right{
+    margin: 0 0 0 10px;
+    transform: rotate(-45deg);
+}
+/*Marketing Agency*/
+
+.man_shouting
+{
+    left: 55%;
+    top: 25px;
+    position: relative;
+}
+.man_shouting img{
+    width: 500px;
+    position: absolute;
+}
+.blue_box{
+    background-color: aqua;
+    width: 300px;
+    height: 333px;
+}
+
+.woman_pointing {
+    width: 300px;
+    margin-left: 20%;
+    position: relative;
+    top: 10px;
+    z-index: -1;
+}
+
+/* capabilities */
+.capabilities{
+    background-color: white;
+    height: 400px;
+    width: 1350px;
+    margin:  auto;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.capabilities h1{
+    font-size: 25px;
+    opacity: 50%;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+.capabilities p{
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #1f1f1f;
+}
+
+#capabilities_heading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.capabilities_right{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: flex-end;
+}
+.capabilities_card img{
+    width: 40px;
+}
+.capabilities_card{
+    margin: 0 0 0 70px;
+    color: #1f1f1f;
+}
+
+.capabilities_card:nth-child(1){
+    margin: 0;
+}
+.capabilities_divider{
+    border:none;
+    background-color:#1f1f1f;
+    opacity: 30%;
+    width: 3px;
+}
+.fa-minus{
+    color: orange;
+    position: relative;
+    top: 5px;
+    /* width: ; */
+}
+
+/* capabilities */
+
+
+/* we can help */
+.we_can_help img{
+    width: 250px;
+    position:absolute;
+    /* opacity: 20%; */
+}
+.we_can_help {
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    margin-top: 200px;
+}
+.we_can_help h1{
+    margin: 36px 0;
+    word-spacing: 10px;
+}
+#first_h1{
+    text-align: center;
+}
+#second_h1{
+    margin-left: 250px;
+}
+#third_h1{
+    margin-left: 600px;
+}
+
+#man2{
+    margin: -113px 0 0 40px;
+}
+#man3{
+    margin: -113px 0 0 1100px;
+}
+#women2{
+    margin: -113px 0 0 40px;
+}
+.get_started{
+    font-weight: 700;
+    font-size: 25px;
+    color: #1f1f1f;
+    background-color: rgba(253,200,52,255);
+    border: none;
+    padding: 24px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0  0 0 1050px;
+}
+/* we can help */
+
+
+/* services */
+.services{
+    margin-bottom: 150px;
+}
+.heading p{
+    opacity: 40%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+}
+.heading h1{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+.wave{
+    position: relative;
+    left: 10%;
+    z-index: -2;
+}
+.wave img{
+    position:absolute;
+    margin-top: -130px;
+}
+
+.services_card h1{
+    position:absolute;
+    font-size: 100px;
+}
+.services_card h2,
+.services_card h3,
+.services_card a{
+    color: white;
+    font-family:Poppins;
+    text-decoration: none;
+    margin-left: 85px;
+}
+.services_card h2{
+    letter-spacing: 2px;
+}
+.services_card h3{
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.services_1{
+    margin: 45px 0 0 300px;
+}
+.services_2{
+    margin: 30px 0 0 650px;
+}
+.services_3{
+    margin: 0 0 0 1000px;
+}
+/* services */
+
+/*Digital Advertising*/
+
+/*carosell*/
+.carousel_img img{
+    width: 350px;
+    height:350px;
+    object-fit: cover;
+    object-position: center;
+    margin:0 20px 0 0;
+    border: 8px solid white;
+    animation: ease-in-out;
+}
+
+.Carousel{
+    margin: 10px 0 100px 0;
+    padding: 50px 0;
+    /* overflow: hidden; */
+    /* background-color: aqua; */
+}
+.Carousel .next{
+    background: transparent;
+    position: absolute;
+    left: 80%;
+    margin-top: -260px;
+    width: 25px;
+}
+.Carousel .previous{
+    background: transparent;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -260px;
+    width: 25px;
+}
+.Carousel .flickity-prev-next-button .arrow{
+    fill: white;
+}
+.Carousel .flickity-button:hover{
+    background: transparent;
+}
+.Carousel .flickity-page-dots {
+    bottom: -22px;
+}
+.Carousel .flickity-page-dots .dot {
+    height: 4px;
+    width: 40px;
+    margin: 0;
+    border-radius: 0;
+    background: white;
+}
+/*carosell*/
+/* .carousel_img img:hover{
+    position: relative;
+    transform: translateY(-15%);
+    animation: ease-in-out;
+}
+.Carousel .flickity-viewport{
+    overflow: visible;
+}   */
+
+
+
+/*Digital Advertising*/
+
+/* why us */
+.why_us_heading h1,
+.why_us_heading p{
+    text-align: center;
+}
+.content_why_us{
+    margin: 60px 200px;
+    color: white;
+    text-align: left;
+    max-width: 500px;
+}
+.content_why_us p{
+    font-family: Poppins;
+    font-size: 15px;
+    margin: 50px 0;
+}
+.content_why_us h2{
+    font-family: Poppins;
+    font-size: 20px;
+    letter-spacing: 3px;
+    position: relative;
+    top: 10px;
+}
+.content_why_us img{
+    float: left;
+    margin-right: 20px;
+    width: 40px;
+}
+.grid2{
+    position:absolute;
+}
+.grid2 img{
+    position: relative;
+    transform: rotate(30deg);
+    opacity: 20%;
+    left: 300px;
+}
+.chart3d{
+    position:absolute;
+    left: 55%;
+    margin-top: 50px;
+}
+.sale_increase_div{
+    position: absolute;
+    left: 50%;
+}
+.sale_increase{
+    margin-top: 350px;
+    margin-left: 350px;
+    position: relative;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sale_increase h1{
+    color: #1f1f1f;
+    font-size: 30px;
+}
+.sale_increase img{
+    position: relative;
+    float: left;
+    left: -10px;
+    width: 40px;
+}
+.sale_increase_right{
+    float: right;
+}
+.sale_increase_hr{
+    height: 50px;
+    width: 1px;
+    border: none;
+    background-color: #1f1f1f;
+    opacity: 50%;
+    position: relative;
+    margin: 0 10px;
+    /* left: 35%; */
+}
+
+/* why us */
+/* testimonials */
+.testimonials{
+    background-color: white;
+    height: 400px;
+    width: 1350px;
+    margin: 100px auto;
+    /* padding: 100px; */
+    
+}
+#testimonials_img{
+    width: 675px;
+    height: 100%;
+    background-image: linear-gradient(rgba(228, 171, 16, 0.815), rgba(255, 102, 0,0.8));
+    float: left;
+    /* overflow: hidden; */
+}
+#testimonials_img img{
+    width: 800px;
+    position: relative;
+    top: -133px;
+    left: -50px;
+}
+
+.testimonials_content{
+    display: grid;
+    padding: 80px;
+    color: #1f1f1f;
+}
+.testimonials_content p{
+    font-family:Poppins;
+    font-size: 24px;
+    font-weight: 400;
+}
+.testimonials_content h2{
+    font-family:Poppins;
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.quote{
+    width: 80px;
+    position: relative;
+    margin-left: 400px;
+    top: -80px;
+    opacity: 20%;
+}
+/* testimonials */
+
+
+/* price */
+.price_card{
+    width: 300px;
+    height: 500px;
+    color: #1f1f1f;
+    padding: 20px;
+}
+.pricing_grid{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    grid-gap: 100px;
+    margin-top: 100px;
+}
+.price_card h1
+{
+    font-size: 40px;
+}
+.price_card h3{
+    position: relative;
+    margin: -40px 0 0 120px;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 15px;
+}
+.pricing_grid h2{
+    margin-top: 40px;
+    font-family: Poppins;
+}
+.price_card p{
+    font-family: Poppins;
+    font-size: 12px;
+    color: #1f1f1f;
+    opacity: 100%;
+    letter-spacing: 1px;
+    margin: 10px 0 25px 0;
+}
+.price_card li{
+    font-family: Poppins;
+    list-style: none;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.list_style{
+    width: 12px;
+    float: left;
+    margin: 4px 5px 0 -30px;
+}
+.price_card button{
+    background-color: transparent;
+    color:#1f1f1f;
+    border: 2px solid #1f1f1f;
+    padding: 12px 30px;
+    font-family:Poppins;
+    width: 250px;
+}
+.price_card hr{
+    background-color: #1f1f1f;
+    border: none;
+    height: 1px;
+}
+.price_card_1{
+    background-color: rgba(255,236,183,255);
+}
+.price_card_1 h1{
+    color: #1f1f1f;
+}
+.price_card_1 button{
+    margin-top: 60px;
+}
+.price_card_2{
+    background-color: rgba(210,232,255,255);
+}
+.price_card_2 h1{
+    color: rgba(37,142,242,255);
+}
+.price_card_2 button,
+.price_card_3 button{
+    margin-top: 16px;
+}
+.price_card_3{
+    background-color:rgba(90,69,224,255);
+    color: white;
+}
+.price_card_3 p{
+    color: white;
+}
+.price_card_3 button{
+    color: white;
+    border-color: white;
+}
+.price_card_3 hr{
+    background-color: white;
+}
+/* price */
+
+
+.hr{
+    opacity: 30%;
+}
+
+/* footer */
+footer{
+    margin-top: 500px ;
+}
+
+/* footer end*/
